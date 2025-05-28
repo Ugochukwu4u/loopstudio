@@ -5,4 +5,5 @@ document.querySelector(".icon-menu").addEventListener('click', ()=>{
 
 document.querySelector(".mobile-content img:last-child").addEventListener("click", ()=>{
     nav.style.transform = "translateX(-100%)";
+    console.log("working");
 })
